@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="municipalities_array">
+        <!-- 0: Beijing -->
+        <item>Beijing has served as the political centre of China for more than seven centuries and is the capital of the People\'s Republic of China. It is one of the country\'s four direct-administered municipalities, governing districts such as Dongcheng and Haidian rather than belonging to any province. The city is famous for imperial landmarks including the Forbidden City, the Temple of Heaven and the Great Wall sections at Badaling, as well as the hutong alleys that preserve its traditional residential layout. Beijing hosted the Summer Olympic Games in 2008 and became the first city to stage both Summer and Winter Games when it hosted the 2022 Winter Olympics.</item>
+
+        <!-- 1: Shanghai -->
+        <item>Shanghai is China\'s largest city by population and a direct-administered municipality at the mouth of the Yangtze River. During the nineteenth and early twentieth centuries it grew into a major treaty port and international trading centre, and today it is the country\'s leading financial and commercial hub, home to the Shanghai Stock Exchange and the Pudong financial district. Landmarks include the Bund waterfront with its colonial-era buildings, the modern skyline of Lujiazui and the classical Yu Garden. Its port handles more container traffic than any other in the world, and the city is also a growing centre for technology and advanced manufacturing.</item>
+
+        <!-- 2: Chongqing -->
+        <item>Chongqing lies in south-west China where the Jialing and Yangtze rivers meet, and it became a direct-administered municipality in 1997. It is the largest municipality in the country by area, combining a densely built mountain city with extensive rural counties. The city acted as China\'s wartime capital between 1937 and 1946, and that history is preserved in sites such as the Three Gorges Museum and the Ciqikou old town. Chongqing is also an important industrial base, the starting point for Yangtze River cruises through the Three Gorges, and it is well known for its spicy hotpot cuisine.</item>
+
+        <!-- 3: Tianjin -->
+        <item>Tianjin is a direct-administered municipality in northern China on the coast of the Bohai Sea, about 120 kilometres south-east of Beijing. It developed as a treaty port after 1860, and the former concession districts still contain European-style architecture from that period. Today the city is a major port and industrial centre, and it works closely with Beijing under the Jing-Jin-Ji regional development plan. Notable attractions include the Tianjin Eye ferris wheel above the Hai River, the Italian Style Town and the Porcelain House, while the Binhai New Area provides a large modern industrial and port zone.</item>
+    </string-array>
+</resources>
