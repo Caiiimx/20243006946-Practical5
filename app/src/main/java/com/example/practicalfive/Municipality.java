@@ -1,6 +1,9 @@
 package com.example.practicalfive;
 
+import android.content.ActivityNotFoundException;
+import android.content.Intent;
 import android.content.res.ColorStateList;
+import android.net.Uri;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -11,6 +14,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
 public class Municipality extends AppCompatActivity {
+
+    private static final String[] WEBSITES = {
+            "https://english.beijing.gov.cn/",
+            "https://english.shanghai.gov.cn/",
+            "https://en.tj.gov.cn/",
+            "https://english.cq.gov.cn/"
+    };
 
     private static final int[] IMAGES = {
             R.drawable.beijing,
@@ -65,6 +75,7 @@ public class Municipality extends AppCompatActivity {
 
         visitButton.setTextColor(textOnAccent);
         visitButton.setBackgroundTintList(ColorStateList.valueOf(accent));
+        visitButton.setOnClickListener(view -> openWebsite());
     }
 
     private String municipalitySummary() {
@@ -82,6 +93,16 @@ public class Municipality extends AppCompatActivity {
             case "Beijing":
             default:
                 return 0;
+        }
+    }
+
+    private void openWebsite() {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(WEBSITES[municipalityIndex]));
+
+        try {
+            startActivity(intent);
+        } catch (ActivityNotFoundException exception) {
+            Toast.makeText(this, R.string.error_no_browser, Toast.LENGTH_LONG).show();
         }
     }
 }
