@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PracticalFive" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/municipality_tianjin</item>
+        <item name="colorPrimaryDark">@color/municipality_tianjin</item>
+        <item name="colorAccent">@color/municipality_chongqing</item>
+        <item name="android:windowBackground">@color/color_default_background</item>
+    </style>
+</resources>
